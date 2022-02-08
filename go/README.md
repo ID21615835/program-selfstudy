@@ -6,6 +6,7 @@
 - [github book](https://github.com/unknwon/the-way-to-go_ZH_CN)
 - [go语言入门练手项目推荐](https://zhuanlan.zhihu.com/p/369143210)    
 - [7days实现项目](https://github.com/geektutu/7days-golang)
+- [100 天go 语言学习](https://github.com/rubyhan1314/Golang-100-Days)
 
 ## what is the golang
 

@@ -1,0 +1,3 @@
+[submodule "go/Golang-100-Days"]
+	path = go/Golang-100-Days
+	url = https://github.com/rubyhan1314/Golang-100-Days
