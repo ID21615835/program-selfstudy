@@ -1,6 +1,6 @@
-# Example of TODO.md
+# Example of Github Actions 
 
-This is an example of TODO.md
+there is the mode in [link click here](https://docs.github.com/cn/actions/quickstart)
 
 View the raw content of this file to understand the format.
 
