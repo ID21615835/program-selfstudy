@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go/Golang-100-Days" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go/Golang-100-Days/Day36-37(beego框架)/code/day36/QianfengBeegoDemo1" vcs="Git" />
+  </component>
+</project>

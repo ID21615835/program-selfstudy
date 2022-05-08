@@ -1,19 +1,239 @@
 # Example of TODO.md
 
-This is an example of TODO.md
-
-View the raw content of this file to understand the format.
-
 ### Todo
 
-- [ ] Work on the website ~3d #feat @john 2020-03-20  
-- [ ] Fix the homepage ~1d #bug @jane  
-  - [ ] Sub-task or description  
+  - [ ] Sub-task switch语句 - switch的结构 / case语句 / break语句 / fallthrough语句 / switch的其他写法  
+- [ ] Day05 - [循环语句](./go/Golang-100-Days/Day01-15(Go语言基础)/day05_循环语句.md)  
+  - [ ] Sub-task 循环结构的应用场景 - 条件 / 结构 / 代码块 / 流程图  
+  - [ ] Sub-task for循环 - 基本结构  / 循环中的分支结构 / 嵌套的循环 / for的其他写法  
+  - [ ] Sub-task 循环控制语句 - break / continue  
+  - [ ] Sub-task goto语句 - goto的结构 / goto的注意点  
+  - [ ] Sub-task 生成随机数 - 随机数的生成  
+  - [ ] Sub-task 应用案例 - 1~100求和 / 判断素数 / 猜数字游戏 / 打印九九表 / 打印三角形图案 / 水仙花数 / 百钱百鸡  
+- [ ] Day06 - [数组](./go/Golang-100-Days/Day01-15(Go语言基础)/day06_数组.md)  
+  - [ ] Sub-task 数组 - 数组的概念 / 数组的使用 / 数组的语法 / 数组的长度 / 数组的注意点  
+  - [ ] Sub-task 数组的遍历 - 数组的下标 / 普通for遍历数组 / for…range 遍历  
+  - [ ] Sub-task 数组的排序 - 冒泡排序 / 选择排序 / 插入排序 。。。  
+  - [ ] Sub-task 多维数组 - 二维数组 / 二维数组的使用 / 二维数组的遍历  
+  - [ ] Sub-task 数组的数据类型 - 数组是值类型数据  
+- [ ] Day07 - [切片](./go/Golang-100-Days/Day01-15(Go语言基础)/day07_Slice的使用.md)  
+  - [ ] Sub-task 切片 - 切片的概念 / 切片的使用 / 切片的语法 / 切片的长度和容量 / 切片的注意点  
+  - [ ] Sub-task 切片的原理 - 切片的底层数组 / 已有数组上创建切片 / 截取切片  
+  - [ ] Sub-task 切片的遍历 - 切片的下标 / 普通for遍历切片 / for…range 遍历  
+  - [ ] Sub-task 切片相关函数 - make() / append() / copy() /  len() / cap()  
+  - [ ] Sub-task 切片拷贝 - 深拷贝 / 浅拷贝  
+  - [ ] Sub-task 切片的数据类型 - 切片是引用类型数据  
+- [ ] Day08 - [Map](./go/Golang-100-Days/Day01-15(Go语言基础)/day08_Map的使用.md)  
+  - [ ] Sub-task Map - Map的概念 / Map的使用 / Map的语法 / Map的长度和容量 / Map的注意点  
+  - [ ] Sub-task Map的存储特点 - key-value / Map的key类型 / Map中的键值对无序  
+  - [ ] Sub-task Map的创建 - 空Map /  
+  - [ ] Sub-task Map的操作 - 添加数据 / 修改数据 / 获取数据 / 删除数据  
+  - [ ] Sub-task Map的数据类型 - Map是引用类型数据  
+- [ ] Day09 - [string](./go/Golang-100-Days/Day01-15(Go语言基础)/day09_string.md)  
+  - [ ] Sub-task 字符串的使用 - 计算长度 / 下标运算 / 切片 / 常用方法  
+  - [ ] Sub-task strings包  
+  - [ ] Sub-task strconv包  
+- [ ] Day10 - [函数](./go/Golang-100-Days/Day01-15(Go语言基础)/day10_函数.md)  
+  - [ ] Sub-task 函数 - 函数的概念 / 函数的作用  
+  - [ ] Sub-task 函数的语法 - 定义函数 / 调用函数  
+  - [ ] Sub-task 函数的参数 - 参数的使用 / 可变参数 / 参数传递  
+  - [ ] Sub-task 函数的返回值 - 返回值 / return语句 / 没有返回值 / 返回单个值 / 返回多个值  
+  - [ ] Sub-task 变量作用域 - 局部变量 / 全局变量  
+  - [ ] Sub-task 递归函数 - 递归算法 / 递归函数实现  
+  - [ ] Sub-task 函数高级 - 函数的本质 / 匿名函数 / 高阶函数 / 回调函数 / 闭包结构  
+  - [ ] Sub-task defer函数 - 延迟函数 / 延迟参数 / 堆栈的延迟 / defer注意点  
+- [ ] Day11 - [包的管理](./go/Golang-100-Days/Day01-15(Go语言基础)/day11_包的管理.md)  
+  - [ ] Sub-task 包管理 - 包的概念 / 包的定义 / 包的导入 / main包  
+  - [ ] Sub-task 包的关键字[ ] Sub-task package / import  
+  - [ ] Sub-task 包的导入逻辑 - init()函数 / 同包的多个init()函数 / 不同包的多个init()函数  
+  - [ ] Sub-task 管理外部包  
+- [ ] Day12 - [指针](./go/Golang-100-Days/Day01-15(Go语言基础)/day12_指针.md)  
+  - [ ] Sub-task 指针 - 指针的概念 / 获取变量的地址 / 操作指针改变变量  
+  - [ ] Sub-task 指针的语法 - 定义指针 / * / 获取指针数值 /  & / 指针的指针  
+  - [ ] Sub-task 指针的注意点 - 指针的类型 / 指针的地址 / 空指针  
+  - [ ] Sub-task 指针的应用 - 指针作为参数 / 指针作为函数的返回值 / 数组指针和指针数组 / 指针函数和函数指针  
+- [ ] Day13 - [结构体](./go/Golang-100-Days/Day01-15(Go语言基础)/day13-结构体.md)  
+  - [ ] Sub-task 结构体 - 结构体的概念 / 结构体的定义 / 结构体的初始化 / 结构体的访问 / make和new  
+  - [ ] Sub-task 结构体的匿名字段  
+  - [ ] Sub-task 结构体的嵌套 - 结构体嵌套 / 匿名嵌套 / 提升字段  
+  - [ ] Sub-task 结构体的使用 - 结构体指针 / 结构体作为函数的参数 / 结构体作为函数的返回值  
+- [ ] Day14 - [方法和接口](./go/Golang-100-Days/Day01-15(Go语言基础)/day14_第1节_方法.md)  
+  - [ ] Sub-task 方法 - 方法的概念 / 方法的使用  
+  - [ ] Sub-task 方法的语法 - 方法接受者 / 方法和函数  
+  - [ ] Sub-task 结构体嵌套中的方法 - 方法的"继承" / 方法的"重写"  
+  - [ ] Sub-task 接口 - 接口的概念 / 接口的使用  
+  - [ ] Sub-task 接口的语法 - interface / 接口类型  
+  - [ ] Sub-task 接口的应用 - 空接口 / 类型断言 / type关键字  
+- [ ] Day15 - [错误处理](./go/Golang-100-Days/Day01-15(Go语言基础)/day15_错误处理.md)  
+  - [ ] Sub-task 错误 - 错误的概念 / 错误的用法 /  
+  - [ ] Sub-task 错误的类型 - error接口 / 错误类型表示 / 自定义错误  
+  - [ ] Sub-task 错误的处理 - 返回错误的函数 / 错误的处理  
+  - [ ] Sub-task 相关知识 - panic()函数 / recover()函数 / defer()函数  
+- [ ] Day16~20 - [Go语言基础进阶](./go/Golang-100-Days/Day16-20(Go语言基础进阶))  
+- [ ] Day16 - [I/O操作](./go/Golang-100-Days/goon.md)  
+  - [ ] Sub-task I / O[ ] Sub-task 什么是I/O / os包的使用  
+  - [ ] Sub-task 文件操作 - 获取文件信息 / 文件创建  
+  - [ ] Sub-task I / O 操作  
+  - [ ] Sub-task 相关包 - bufio包 / ioutil包  
+  - [ ] Sub-task I / O 应用 - 复制文件 / 断点续传 / 遍历文件夹  
+- [ ] Day17 - [并发编程Goroutine](./go/Golang-100-Days/goon.md)  
+- [ ] Day18 - [通道Channel](./go/Golang-100-Days/goon.md)  
+- [ ] Day19 - [反射机制](./go/Golang-100-Days/goon.md)  
+- [ ] Day20 - [综合练习](./go/Golang-100-Days/goon.md)  
+- [ ] Day21~22 - [网络编程](./go/Golang-100-Days/Day21-22(网络编程))  
+- [ ] Day23~24 - [MySQL数据库基础](./go/Golang-100-Days/Day23-24(MySQL数据库基础))  
+- [ ] Day25 - [Go语言链接MySQL](./go/Golang-100-Days/Day25(Go链接MySQL))  
+- [ ] Day26~31 - [Web前端](./go/Golang-100-Days/Day26-31(Web前端))  
+- [ ] Day26 - [HTML](./go/Golang-100-Days/goon.md)  
+- [ ] Day27 - [CSS](./go/Golang-100-Days/goon.md)  
+- [ ] Day28~30 - [JavaScript](./go/Golang-100-Days/goon.md)  
+- [ ] Day31 - [jQuery](./go/Golang-100-Days/goon.md)  
+- [ ] Day32~35 - [Go Web开发](./go/Golang-100-Days/Day32-35(Go Web开发))  
+- [ ] Day32 - [Web初识](./go/Golang-100-Days/goon.md)  
+- [ ] Day33 - [http包详解](./go/Golang-100-Days/goon.md)  
+- [ ] Day34 - [session和cookie](./go/Golang-100-Days/goon.md)  
+- [ ] Day35 - [文本处理](./go/Golang-100-Days/goon.md)  
+- [ ] Day36~37 - [beego框架](./go/Golang-100-Days/Day36-37(beego框架))  
+- [ ] Day36 - [beego框架介绍和流程分析]()  
+  - [ ] Sub-task beego框架 - beego简介 / beego安装 / beego特性  
+  - [ ] Sub-task bee工具 -  bee简介/ bee安装  
+  - [ ] Sub-task bee的用法 - bee命令  
+  - [ ] Sub-task beego程序流程分析 - beego程序入口 / go语言执行顺  
+  - [ ] Sub-task beego框架功能 - 请求拦截 / 路由分发  
+  - [ ] Sub-task beego控制器 - 处理逻辑  
+  - [ ] Sub-task beego.Run方法 - 解析配置 / 路由分发 / 监听服务  
+- [ ] Day37 - [beego框架总结和数据库连接配置]()  
+  - [ ] Sub-task conf配置 - 项目数据配置 / 配置数据读取  
+  - [ ] Sub-task controllers -  控制器介绍 / 控制器功能 / 控制器定义  
+  - [ ] Sub-task models- 数据层作用 / model定义  
+  - [ ] Sub-task routers - 路由层功能 / 路由分类  
+  - [ ] Sub-task 静态资源 - 静态资源目录作用 / 静态资源路径设置  
+  - [ ] Sub-task 数据库安装及配置 - mysql数据库安装 / mysql数据库基本命令 / 可视化工具  
+  - [ ] Sub-task 数据库驱动 - 数据库驱动分类 / mysql驱动安装 / 连接配置 / 连接数据库  
+- [ ] Day38~41 - [项目实战一](./go/Golang-100-Days/Day38-41(beego框架开发博客系统)/day38_项目搭建、登录注册和Session功能开发.md)  
+- [ ] Day38 - [项目搭建、登录注册和Session功能开发](./go/Golang-100-Days/Day38-41(beego框架开发博客系统)/day38_项目搭建、登录注册和Session功能开发.md)  
+  - [ ] Sub-task bee工具使用 - 项目创建 / 项目运行  
+  - [ ] Sub-task mysql数据库操作 -  数据库连接配置 / 读取数据库配置 / 连接数据库  
+  - [ ] Sub-task models- 数据库表设计 / 执行数据库操作方法封装  
+  - [ ] Sub-task 用户注册 - 视图表单数据提交 / 服务器接收post数据 / 操作数据库表添加数据  
+  - [ ] Sub-task 用户登录 - 登录功能控制器 / 路由注册 / 服务器接收Post数据 / 数据库表条件查询  
+  - [ ] Sub-task Session处理 - session功能启用配置 / 添加session数据 / 获取session数据 / 删除session数据  
+  - [ ] Sub-task BaseController - BaseController作用 / controller方法执行顺序 / Parepare方法作用  
+- [ ] Day39 - [写文章、项目首页和查看文章详情功能开发](./go/Golang-100-Days/Day38-41(beego框架开发博客系统)/day39_写文章、项目首页和查看文章详情功能开发.md)  
+  - [ ] Sub-task model层 - 数据库表设计 / 数据库添加操作  
+  - [ ] Sub-task 控制器 -  写文章功能控制器定义 / get方法解析html页面 / Post方法接收form表单数据  
+  - [ ] Sub-task 路由层 - 注册路由解析  
+  - [ ] Sub-task 视图层 - html功能页面 / js逻辑判断 / js表单提交  
+  - [ ] Sub-task 分页功能 - 分页设计 / 数据库limit操作实现分页查询  
+  - [ ] Sub-task 首页内容显示 - model转换 / 分页视图功能  
+  - [ ] Sub-task Markdown语法 - 常见第三方库 / markdown格式编程语法 / markdown与html转换  
+- [ ] Day40 - [写文章、项目首页和查看文章详情功能开发](./go/Golang-100-Days/Day38-41(beego框架开发博客系统)/day40_修改文章、删除文章和文章标签功能开发.md)  
+  - [ ] Sub-task 修改文章功能 - 注册修改功能路由 / 修改功能controller逻辑实现 / get方法渲染页面 / post方法接收表单数据 / 数据库表数据修改操作  
+  - [ ] Sub-task 删除功能 - 按条件删除数据库表数据 / 删除后视图重定向  
+  - [ ] Sub-task 标签功能 - 数据库查询  
+- [ ] Day41 - [写文章、项目首页和查看文章详情功能开发](./go/Golang-100-Days/Day38-41(beego框架开发博客系统)/day41_首页功能扩展、图片上传和关于功能开发.md)  
+  - [ ] Sub-task 功能扩展 - tags查询 / page查询 / 多条件逻辑判断 / 多条件查询&的使用  
+  - [ ] Sub-task 文件上传 - 数据表设计 / js实现文件提交 / 服务器接收文件数据 / 文件类型判断 / 文件大小判断 / 文件名 / 保存文件  
+  - [ ] Sub-task 项目总结 - beego框架组成 / bee调试工具 / beego程序执行流程 / 数据库操作 / beego项目架构 / session处理 / 模板文件语法  
+- [ ] Day42~43 - [Gin框架](./go/Golang-100-Days/Day42-43(Gin框架))  
+- [ ] Day44 - [MySQL数据库高级](./go/Golang-100-Days/Day44(MySQL数据库高级))  
+- [ ] Day45 - [Git](./go/Golang-100-Days/Day45(Git))  
+- [ ] Day46~50 - [项目实战二](./go/Golang-100-Days/Day46-50(项目实战二))  
+- [ ] Day51 - [Node.js](./go/Golang-100-Days/Day51(Node.js))  
+- [ ] Day52 - [Vue](./go/Golang-100-Days/Day52(Vue))  
+- [ ] Day53 - [Redis数据库](./go/Golang-100-Days/Day53(Redis数据库))  
+- [ ] Day54~55 - [Iris框架](./go/Golang-100-Days/Day54-55(iris框架)/day54_web开发介绍、iris框架安装、HTTP请求和返回、iris路由处理.md)  
+- [ ] Day54 - [web开发介绍、iris框架安装、HTTP请求和返回、iris路由处理](./go/Golang-100-Days/Day54-55(iris框架)/day54_web开发介绍、iris框架安装、HTTP请求和返回、iris路由处理.md)  
+  - [ ] Sub-task web开发 - 项目架构 / 开发流程 / 实战项目介绍 / 项目技术栈  
+  - [ ] Sub-task iris框架 - iris简介 / iris特性 / iris框架安装 / iris参考资料  
+  - [ ] Sub-task http请求和处理 - 数据请求和分类 / http1.0和http1.1 / iris标准请求处理 / 自定义请求处理 / 请求处理数据格式封装  
+  - [ ] Sub-task 路由处理 - Context概念 / 正则表达式路由  
+- [ ] Day55 - [框架设置、mvc包、session使用、项目搭建和资源导入](./go/Golang-100-Days/Day54-55(iris框架)/day55_框架设置、mvc包、session使用、项目搭建和资源导入.md)  
+  - [ ] Sub-task 路由组 - Party实现路由组 / context.Next()方法 / taml配置文件 / yaml配置文件设置 / 自定义配置文件 / 自定义配置设置  
+  - [ ] Sub-task mvc包 - mvc.Application作用 / mvc特性 / 声明周期 / mvc.Configure配置  
+  - [ ] Sub-task session处理和使用 - session与cookie区别 / session支持数据类型 / session创建 / session使用  
+  - [ ] Sub-task 实战项目 - 创建企业管理平台项目 / 目录说明 / 项目资源集成  
+- [ ] Day56~60 - [项目实战三](./go/Golang-100-Days/Day56-60(项目实战三))  
+- [ ] Day61 - [Linux](./go/Golang-100-Days/Day61(Linux))  
+- [ ] Day62~64 - [容器](./go/Golang-100-Days/Day62-64(容器))  
+- [ ] Day62 - [虚拟化VS容器化](./go/Golang-100-Days/goon.md)  
+- [ ] Day63 - [Docker](./go/Golang-100-Days/goon.md)  
+- [ ] Day64 - [Kubernetes(k8s)](./go/Golang-100-Days/goon.md)  
+- [ ] Day65~75 - [分布式](./go/Golang-100-Days/Day65-75(分布式))  
+- [ ] Day65 - [分布式理论](./go/Golang-100-Days/goon.md)  
+- [ ] Day66~67 - [分布式文件系统FastDFS](./go/Golang-100-Days/goon.md)  
+- [ ] Day68 - [Nginx与反响代理部署](./go/Golang-100-Days/goon.md)  
+- [ ] Day69~70 - [Go开发实现高可用性etcd系统](./go/Golang-100-Days/goon.md)  
+- [ ] Day60~75 - [项目实战四：分布式项目](./go/Golang-100-Days/goon.md)  
+- [ ] Day76~95 - [微服务](./go/Golang-100-Days/Day76(微服务特性)/day76_微服务简介及特性介绍.md)  
+- [ ] Day76 - [微服务简介、单体应用、微服务方案、微服务实践问题](./go/Golang-100-Days/Day76(微服务特性)/day76_微服务简介及特性介绍.md)  
+  - [ ] Sub-task 微服务简介 - 构建单体应用 / 互联网公司架构  
+  - [ ] Sub-task 单体应用困境 - 应用发展趋势 / 困难与困境  
+  - [ ] Sub-task 复杂问题解决方案 - 微服务架构 / 系统扩展性 / 微服务的优点 / 微服务不足  
+  - [ ] Sub-task 微服务实践[ ] Sub-task 微服务的定义 / 微服务实践要解决的问题 / 常见的微服务架构  
+- [ ] Day77 - [Protobuf介绍、编程实现、Protobuf语法](./go/Golang-100-Days/Day77(protobuf)/day77_Protobuf介绍.md)  
+  - [ ] Sub-task Protobuf介绍 - Protobuf简介 / Protobuf应用场景 / Protobuf 优点 / Protobuf 缺点  
+  - [ ] Sub-task 编程实现Protobuf传输 - 环境准备 / Protobuf 协议语法 / 使用Protobuf的步骤  
+  - [ ] Sub-task Protobuf语法 - Protobuf 协议语法 / Protobuf序列化原理  
+- [ ] Day78~79 - [微服务管理](./go/Golang-100-Days/Day78-79(微服务管理)/day78_微服务管理(上).md)  
+- [ ] Day78 - [服务发现原理、Consul搭建及配置、服务的管理、集群搭建](./go/Golang-100-Days/Day78-79(微服务管理)/day78_微服务管理(上).md)  
+- [ ] Sub-task 服务发现 / 使用服务发现原因 / 服务发现方案 / Consul介绍 / 分布式与单点故障 / Consul环境配置 / Consul内部原理 / Consul启动 / Consul节点发现  
+- [ ] Day79 - [定义微服务、服务查询、集群搭建](./go/Golang-100-Days/Day78-79(微服务管理)/day79_微服务管理(下).md)  
+  - [ ] Sub-task 服务管理 / 服务的定义 / 服务的注册与发现 / 服务查询 / 注册多个服务 / 多节点服务集群 / Docker环境的搭建  
+- [ ] Day80 - [ RPC介绍、RPC编程与实现、RPC与Protobuf结合](./go/Golang-100-Days/Day80(RPC远程调用机制)/day80_RPC远程过程调用.md)  
+  - [ ] Sub-task RPC介绍 - RPC简介及原理介绍 / 本地过程调用 / RPC技术实现  
+  - [ ] Sub-task RPC编程与实现 - RPC官方库 / net/rpc库实现RPC调用编程  
+  - [ ] Sub-task RPC与Protobuf结合 - 传输数据格式定义 / Protobuf格式数据与RPC结合  
+- [ ] Day81~82 - [gRPC远程过程调用](./go/Golang-100-Days/Day81-82(gRPC远程调用机制)/day81_gRPC远程调用机制介绍.md)  
+- [ ] Day81 - [gRPC介绍和安装、gRPC框架的使用](./go/Golang-100-Days/Day81-82(gRPC远程调用机制)/day81_gRPC远程调用机制介绍.md)  
+  - [ ] Sub-task gRPC介绍和安装 - 什么是gRPC / grpc-go介绍  
+  - [ ] Sub-task gRPC框架使用 - 定义服务 / 编译.proto文件 / gRPC实现RPC编程  
+- [ ] Day82 - [gRPC编程使用、TLS验证和Token认证、拦截器及自定义拦截器的使用](./go/Golang-100-Days/Day81-82(gRPC远程调用机制)/day82_gRPC使用.md)  
+  - [ ] Sub-task gRPC编程使用 - 服务端流RPC / 编译.protoc文件 / 服务端代码 / 客户端代码生成 / 服务的注册监听处理 / 客户端数据接收 / 客户端流模式 / 双向流模式  
+  - [ ] Sub-task TLS验证和Token认证 - 授权认证 / SSL/TLS工作原理 / Token认证过程 / 自定义Token认证  
+  - [ ] Sub-task 拦截器的使用 - Interceptor介绍 / 自定义UnaryServerInterceptor / 拦截器注册  
+- [ ] Day83~85 - [go-micro微服务框架](./go/Golang-100-Days/Day83-85(go-micro微服务框架)/day83_go-micro框架介绍.md)  
+- [ ] Day83 - [micro框架介绍及使用、micro创建微服务](./go/Golang-100-Days/Day83-85(go-micro微服务框架)/day83_go-micro框架介绍.md)  
+  - [ ] Sub-task micro框架介绍 - 背景 / micro概述介绍 / micro组成 / micro工具组件：API、Web、Sidecar、Bot / Go-Micro特性 / consul安装及环境准备  
+  - [ ] Sub-task 创建微服务 - 微服务的定义 / 初始化服务实例 / Options可选项配置 / 定义服务接口,实现服务业务逻辑 / 微服务调用 / 自定义指定服务发现组件  
+- [ ] Day84 - [心跳机制与可选项配置、事件驱动机制](./go/Golang-100-Days/Day83-85(go-micro微服务框架)/day84_go-micro使用(一).md)  
+  - [ ] Sub-task 心跳机制与可选项配置 - 心跳机制的由来 / consul心跳配置 / TTL和间隔时间  
+  - [ ] Sub-task 事件驱动机制 - 发布/订阅机制 / Broker组件设计 / go-plugins安装 / MQTT介绍及环境搭建 / 编程实现消息订阅和发布  
+- [ ] Day85 - [micro框架Selector机制](./go/Golang-100-Days/Day83-85(go-micro微服务框架)/day85_go-micro使用(二).md)  
+  - [ ] Sub-task Selector机制 - 负载均衡算法 / Mico的Selector / Selector的定义 / DefaultSelector / registrySelector  
+- [ ] Day86 - [RESTful设计和使用](./go/Golang-100-Days/Day86(RESTful设计)/day86_RESTful标准设计.md)  
+  - [ ] Sub-task RESTful设计规范及使用 - Go-Micro API网关 / 安装Micro工具 / Micro API工作原理 / 反向代理的API服务启动 / REST 映射  
+- [ ] Day87 - [微服务项目设计](./go/Golang-100-Days/goon.md)  
+- [ ] Day88 - [RPC远程调用机制](./go/Golang-100-Days/goon.md5)  
+- [ ] Day89~95 - [项目实战五：微服务项目](./go/Golang-100-Days/goon.md)  
+- [ ] Day96~100 - [完美收官](./go/Golang-100-Days/Day96-100(完美收官))  
 
 ### In Progress
 
-- [ ] Work on Github Repo [JIRA-345]  
+  - [ ] Sub-task if语句 - 简单的if / if-else结构 / if-elif-else结构 / 嵌套的if / if的其他写法  
+- [ ] Day01~15 - [Go语言基础](./go/Golang-100-Days/Day01-15(Go语言基础))  
 
 ### Done ✓
 
-- [x] Create my first TODO.md  
+  - [x] Sub-task 分支结构的应用场景 - 条件 / 结构 / 代码块 / 流程图  
+- [x] Day04 - [分支语句](./go/Golang-100-Days/Day01-15(Go语言基础)/day04_分支语句.md)  
+  - [x] Sub-task 格式化占位符 - %v / %T / %t / %s / %f / % d / %p / %c 。。。  
+  - [x] Sub-task 键盘输入和打印输出 - Scanln() / Scanf() / Print() / Printf() / Println()  
+  - [x] Sub-task 表达式 - 表达式的值 / 表达式的类型  
+  - [x] Sub-task 运算符 - 算术运算符 / 赋值运算符 / 比较运算符 / 逻辑运算符 / 位运算符 / 位移运算符 /  运算符的优先级  
+  - [x] Sub-task 数据类型的转换 - 强制转换 / 自动转换  
+  - [x] Sub-task 数据类型 - 整数 / 浮点数 / 复数 / 字符串  / 字符编码  
+- [x] Day03 - [数据类型&运算符](./go/Golang-100-Days/Day01-15(Go语言基础)/day03_数据类型&运算符.md)  
+  - [x] Sub-task 常量 - 常量的命名 / 常量的使用 / 常量的分析 / 常量的注意事项 / iota关键字  
+  - [x] Sub-task 变量 - 变量的命名 / 变量的使用 / 变量的分析 / 变量的注意事项  
+  - [x] Sub-task 进制以及转换 - 计算机原理 / 二进制 / 十进制 / 八进制 / 十六进制 / 进制转换  
+- [x] Day02 - [基本语法](./go/Golang-100-Days/Day01-15(Go语言基础)/day02_基本语法.md)  
+  - [x] Sub-task 编码规范  
+  - [x] Sub-task 注释 - 注释的作用 / 单行注释 / 多行注释  
+  - [x] Sub-task 安装IDE - Goland工具 / 其他的IDE  
+  - [x] Sub-task Go的执行原理 - Go的命令  
+  - [x] Sub-task HelloWorld程序 - Go语言文件的结构格式 / fmt包 / Print函数  
+  - [x] Sub-task Go语言环境搭建 - Windows系统 / Linux系统 / MacOS系统  
+  - [x] Sub-task Go语言简介 - Go语言的历史 / Go语言核心特性 / Go语言的logo版本 / Go的应用领域  
+- [x] Day01 - [Go语言初识](./go/Golang-100-Days/Day01-15(Go语言基础)/day01_第8节_第一个程序HelloWorld.md)  
+
